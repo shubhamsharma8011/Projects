@@ -4,7 +4,7 @@
 text=input("""Enter the text which should contain 700 to 1500 words:\n""")
 number_of_words=len(text.split())
 
-if number_of_words>600 and number_of_words<1500:
+if number_of_words>700 and number_of_words<1500:
     print()
     choice=int(input("Enter the numbers given below to get the specific output:\n" \
     "===  To check number of words --> 1  ===\n" \
